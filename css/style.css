@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: 'iransans';
+	src: url(../font/IranianSans.eot) format('eot'),
+		url(../font/IranianSans.ttf) format('ttf'),
+		url(../font/IranianSans.woff) format('woff');
+}
+ body {
+ direction: rtl;
+ font-family: iraniansans;
+ }
+
+ header {
+ width: 100%;
+ height:200px;
+ background-image:url(../images/best-computer-wallpapers-101.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-top: 0;
+ border-radius: 4px;
+ text-align:center;
+ color: red;
+ }
+ header h1 {
+	font-size: 50px;
+	color: beige;
+	font-family:IranianSans;
+	}
+   
+header h3 {
+	font-size: 40px;
+	}
+	header div{
+	background-color: #000000;
+	opacity: 0.8;
+	
+	
+}
+header h1{
+	color: #ffffff;
+	font-family: iransans;
+	padding: 10px 20px 0 0;
+}
+nav{
+	margin: 10px auto 0;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+	font-family: IranianSans;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+	
+#content_right{
+		width: 20%;
+		float: right;
+		background-color: #E82427;
+		margin: 10px 5px 0 0;
+		}
+.list1{
+	background-image:url(../images/best-computer-wallpapers-101.jpg);
+}
+.list1 ul{
+	list-style-type: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 25px;
+	padding-right: 10px;
+}
+.list1 ul li{
+	display: block;
+
+}
+.list1 ul li a{
+	display: block;
+	text-decoration: none;
+	color: #361DD8;
+}
+.list1 ul li a:hover{
+	background-color: #DC2A2D;
+}
+.login{
+	background-image:url(../images/best-computer-wallpapers-101.jpg);
+	margin-top: 5px;
+	text-align:center;	
+}
+.login h1{
+	color: blue;
+}
+.login form input{
+	font-size: 20px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding-right: 5px;
+}
+
+ #content_main {
+	 width: 75%;
+	 float: left;
+	 padding-right:5px;
+	 padding-left: 5px; 
+	 font-family:IranianSans;
+
+ }
+
+
+footer{
+	width:auto;
+	height:auto;
+	margin: 10px auto 10px;
+	clear: both;
+	background-image:url(../images/best-computer-wallpapers-101.jpg);
+	font-family:IranianSans;
+}
+footer div p{
+	font-family: iransans;
+	color: aliceblue;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+footer ul li {
+	display: inline;
+}
+footer img{
+	width: 40px;
+	height: 40px;
+
+}
+#to_top{
+	right:-100;
+	bottom:10px;
+	cursor:pointer;
+}
+.sticky1{
+	position:fixed;
+	top:0;
+	margin:0 auto;
+	left:0;
+	right:0;	
+}
+@media screen and (max-width:700px){
+	header{width:100%;
+	}
+	header h3{
+		font-size:25px;
+	}
+	nav{
+		width:100%;
+	}
+	.logo{
+		width:100%;
+	}
+	.content{
+		width:100%;
+	}
+	.content_center{
+		display:100%;
+	}
+	.content_left{
+		display:100%;
+	}
+	.content_right
+		display:100%;
+	}
+	footer{
+		width:100%
+	}
+	}
